@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display:wght@700&family=Fredoka+One&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@1,700&family=Kumbh+Sans:wght@400;700&family=Lobster&family=Outfit:wght@300;400;600&family=Rowdies:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url("/images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  background-position-x: -25rem;
+  background-position-y: -30rem;
+}
+.container {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("/images/bg-pattern-bottom.svg");
+  background-position-x: 60rem;
+  background-position-y: 25rem;
+}
+.card {
+  width: 20rem;
+  height: 26rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+}
+.boxGrid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 20rem;
+  height: 13rem;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.fondoC {
+  height: 10rem;
+  grid-area: 1 / 1 / 5 / 4;
+  background-image: url("/images/bg-pattern-card.svg");
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.imagen {
+  height: 4.5rem;
+  grid-area: 4 / 2 / 6 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-header {
+  background-repeat: no-repeat;
+  width: 0rem;
+}
+.img-victor {
+  border-radius: 50%;
+  width: 5.5rem;
+  border: solid white;
+  background-repeat: no-repeat;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.name {
+  width: 20rem;
+  height: 2rem;
+}
+.country {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 3rem;
+}
+.numbers {
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.9px solid hsl(227, 10%, 46%);
+}
+.followers {
+  width: 6.5rem;
+  height: 4rem;
+}
+.likes {
+  width: 6.5rem;
+  height: 4rem;
+}
+.photos {
+  width: 6.5rem;
+  height: 4rem;
+}
+span {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.attribution {
+  display: flex;
+  width: 20rem;
+  height: 3rem;
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
